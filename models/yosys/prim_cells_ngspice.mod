@@ -37,3 +37,8 @@ Alatch D E null null Q nQ latch1
 .model dff1 d_dff
 Adff D C null null Q nQ dff1
 .ENDS DFF
+
+.SUBCKT DFFSR C D Q S R
+.model dff1 d_dff
+Adff D C S R Q nQ dff1
+.ENDS DFF
